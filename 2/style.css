@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main_container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 40vw;
+  align-items: center;
+  text-align: center;
+}
+
+.title {
+  color: rgb(21, 124, 131);
+}
+
+.add_button {
+  padding: 6px 15px;
+  color: azure;
+  background-color: rgb(21, 124, 131);
+  border: none;
+}
+
+.birthday_date {
+  margin-right: 20px;
+  padding: 4px;     
+}
+
+.result {
+  margin-top: 20px;
+  font-size: 18px;
+  color: rgb(17, 109, 116);
+}
